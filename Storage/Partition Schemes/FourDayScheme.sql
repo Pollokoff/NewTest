@@ -1,0 +1,4 @@
+CREATE PARTITION SCHEME [FourDayScheme] 
+AS PARTITION [Test4Days] 
+TO ([Test1FG2], [Test1FG2])
+GO
