@@ -1,4 +1,3 @@
-
 SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
@@ -10,7 +9,8 @@ SELECT ServerID,
        Servername,
        ServerVersion,
        Active,
-	   Upgrade
+	   Upgrade,
+	   'New' AS TestColumn
 	
 FROM dbo.Server_SQL_Details
 GO
