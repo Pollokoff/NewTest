@@ -1,2 +1,0 @@
-CREATE USER [ucsSelectT1] FOR CERTIFICATE [csSelectT]
-GO

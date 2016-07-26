@@ -5,5 +5,5 @@ CREATE TABLE [dbo].[T1]
 GO
 ALTER AUTHORIZATION ON [dbo].[T1] TO [TestUser]
 GO
-GRANT SELECT ON  [dbo].[T1] TO [ucsSelectT1]
+ALTER AUTHORIZATION ON [dbo].[T1] TO [TestUser]
 GO
