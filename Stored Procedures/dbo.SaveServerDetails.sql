@@ -26,6 +26,7 @@ BEGIN
 			LocationID = CASE 
 							WHEN @Domain = 'LOE' THEN 1
 							WHEN @Domain = 'LAUREATE' THEN 3
+							WHEN @Domain = 'USA' THEN 5
 							ELSE 0 END,
 			DMZ = 0,
 			Purpose = @Purpose,
@@ -43,6 +44,7 @@ BEGIN
 			CASE 
 							WHEN @Domain = 'LOE' THEN 1
 							WHEN @Domain = 'LAUREATE' THEN 3
+							WHEN @Domain = 'USA' THEN 5
 							ELSE 0 END,
 			0,
 			@Purpose,
