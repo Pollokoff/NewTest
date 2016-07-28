@@ -1,4 +1,4 @@
-CREATE TABLE [dbo].[Server_SQL_Details]
+CREATE TABLE [dbo].[Server_SQL_Details_Save]
 (
 [ServerID] [int] NOT NULL,
 [Servername] [nvarchar] (128) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
