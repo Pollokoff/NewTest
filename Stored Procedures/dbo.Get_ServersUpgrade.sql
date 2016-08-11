@@ -8,7 +8,6 @@ AS
 SELECT ServerID,
        Servername,
        ServerVersion,
-       Active,
 	   Upgrade,
 	   'New' AS TestColumn
 	
