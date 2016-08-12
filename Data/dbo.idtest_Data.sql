@@ -11,5 +11,5 @@ INSERT INTO [dbo].[idtest] ([id], [string]) VALUES (10, N'test number 10')
 INSERT INTO [dbo].[idtest] ([id], [string]) VALUES (11, N'test number 11')
 SET IDENTITY_INSERT [dbo].[idtest] OFF
 SET IDENTITY_INSERT [dbo].[idtest] ON
-INSERT INTO [dbo].[idtest] ([id], [string]) VALUES (1, N'test number 0')
+INSERT INTO [dbo].[idtest] ([id], [string]) VALUES (1, N'test number xx')
 SET IDENTITY_INSERT [dbo].[idtest] OFF
